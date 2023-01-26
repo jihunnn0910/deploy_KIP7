@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+# Usage
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+use vsCode git bash 
 
-Try running some of the following tasks:
+1. cd deploy_KIP7
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+/* if If yarn is not installed --> npm install -g yarn */
+2. yarn 
+
+3. yarn hardhat compile
+
+4. Create a .env file in the root folder
+
+5. Write code       -->
+                            KLAYTN_URL='mainnet RPC or testnet RPC'
+                            PRIVATE_KEY='your privateKey'
+                            
+6. yarn hardhat run scripts/deploy.ts --network klaytn
