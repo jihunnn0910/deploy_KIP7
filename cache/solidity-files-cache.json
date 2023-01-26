@@ -1,0 +1,368 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\KIP\\token\\KIP7\\KIP7.sol": {
+      "lastModificationDate": 1674179456496,
+      "contentHash": "674db1016f4ae674fe9407206b49c93f",
+      "sourceName": "@klaytn/contracts/KIP/token/KIP7/KIP7.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../utils/Context.sol",
+        "../../utils/introspection/KIP13.sol",
+        "./IKIP7.sol",
+        "./extensions/IKIP7Metadata.sol",
+        "../../../utils/Address.sol",
+        "./IKIP7Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KIP7"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1674179456519,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@klaytn/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1674179456519,
+      "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
+      "sourceName": "@klaytn/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\KIP\\utils\\introspection\\KIP13.sol": {
+      "lastModificationDate": 1674179456519,
+      "contentHash": "acb63e9e9761905342b27c8052ba7704",
+      "sourceName": "@klaytn/contracts/KIP/utils/introspection/KIP13.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IKIP13.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KIP13"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\KIP\\token\\KIP7\\IKIP7.sol": {
+      "lastModificationDate": 1674179456519,
+      "contentHash": "d264bc249e38fa28a5c6426fe7f227f0",
+      "sourceName": "@klaytn/contracts/KIP/token/KIP7/IKIP7.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP7"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\KIP\\token\\KIP7\\IKIP7Receiver.sol": {
+      "lastModificationDate": 1674179456523,
+      "contentHash": "061633fadfa83b4800d967d494ae8b51",
+      "sourceName": "@klaytn/contracts/KIP/token/KIP7/IKIP7Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP7Receiver"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\KIP\\token\\KIP7\\extensions\\IKIP7Metadata.sol": {
+      "lastModificationDate": 1674179456523,
+      "contentHash": "016d533cfb16589ff4ea4f98588cf8d3",
+      "sourceName": "@klaytn/contracts/KIP/token/KIP7/extensions/IKIP7Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IKIP7.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP7Metadata"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\KIP\\interfaces\\IKIP13.sol": {
+      "lastModificationDate": 1674179456531,
+      "contentHash": "fdf15e794b0b2a767a4d907e2f184b73",
+      "sourceName": "@klaytn/contracts/KIP/interfaces/IKIP13.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IKIP13.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\node_modules\\@klaytn\\contracts\\KIP\\utils\\introspection\\IKIP13.sol": {
+      "lastModificationDate": 1674179456536,
+      "contentHash": "e7a0c8ff733bc159cce3e95161460ea4",
+      "sourceName": "@klaytn/contracts/KIP/utils/introspection/IKIP13.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP13"
+      ]
+    },
+    "C:\\Users\\gwf31\\OneDrive\\바탕 화면\\Contarct\\contracts\\MyToken.sol": {
+      "lastModificationDate": 1674180626461,
+      "contentHash": "72f22e16040459878dcccf760f43d857",
+      "sourceName": "contracts/MyToken.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@klaytn/contracts/KIP/token/KIP7/KIP7.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyToken"
+      ]
+    }
+  }
+}
