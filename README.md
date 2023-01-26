@@ -15,7 +15,7 @@ use vsCode git bash
 
 
 
-5. Write code   -->   KLAYTN_URL='mainnet RPC or testnet RPC' /   PRIVATE_KEY='your privateKey'
+5. Write code in .env   -->   KLAYTN_URL='mainnet RPC or testnet RPC' /   PRIVATE_KEY='your privateKey'
                             
                             
 6. yarn hardhat run scripts/deploy.ts --network klaytn
